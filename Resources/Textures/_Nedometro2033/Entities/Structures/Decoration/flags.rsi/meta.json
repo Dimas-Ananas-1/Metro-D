@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "license": "CC-BY-NC-ND 4.0",
+  "copyright": "by stareichen (Discord)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Anarhy_flag"
+    },
+    {
+      "name": "VDNH_flag"
+    },
+    {
+        "name": "Reich_flag"
+    }
+  ]
+}
