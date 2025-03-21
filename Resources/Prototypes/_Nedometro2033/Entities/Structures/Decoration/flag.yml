@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseFlag
+  id: NMFlagAnarhy
+  name: Флаг Анархии
+  description: Флаг тех, кто любит свободу. Анархия - мать порядка
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033/Entities/Structures/Decoration/flags.rsi
+    state: Anarhy_flag
+
+- type: entity
+  parent: BaseFlag
+  id: NMFlagVDNH
+  name: Флаг ВДНХ
+  description: Федеративное государство между торговым уклоном в северной части Московского метрополитена
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033/Entities/Structures/Decoration/flags.rsi
+    state: VDNH_flag
+
+- type: entity
+  parent: BaseFlag
+  id: NMFlagReich
+  name: Флаг Рейха
+  description: националистическое государство Московского метрополитена, их лозунгом является «МЕТРО — ДЛЯ РУССКИХ!»
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033/Entities/Structures/Decoration/flags.rsi
+    state: Reich_flag
