@@ -1,0 +1,32 @@
+# tyshenka.rsi
+
+- type: entity
+  parent: FoodTinBase
+  id: Foodtintyshenka
+  name: Tyshenka
+  description: A jar full of some kind of biomass. Conditionalle edible.
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
+  # the convenient pull tab
+  - type: Openable
+    openableByHand: true
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - salty
+    - cheap
+  - type: Food
+    trash: 
+    - FoodTintyshenkaTrash
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodTinBaseTrash
+  id: FoodTintyshenkaTrash
+  name: tyshenka
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
