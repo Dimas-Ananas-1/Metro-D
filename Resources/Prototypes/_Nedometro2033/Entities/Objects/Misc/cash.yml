@@ -1,0 +1,139 @@
+- type: entity
+  parent: BaseItem
+  id: Cash
+  name: Bullets
+  description: You gotta have cash.
+  components:
+  - type: Cash
+  - type: Item
+    shape:
+    - 0,0,1,0
+    storedOffset: 0,-2
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Credit: 1
+  - type: StaticPrice
+    price: 0
+  - type: Stack
+    stackType: Credit
+    count: 1
+    baseLayer: base
+    layerStates:
+    - cash_1
+    - cash_2
+    - cash_3
+    - cash_4
+    - cash_5
+    - cash_10
+    - cash_11
+    - cash_31
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_1
+    layers:
+    - state: cash_1
+      map: ["base"]
+  - type: Physics
+    bodyType: Dynamic
+  - type: Fixtures
+    fixtures:
+      fix1:
+        density: 30
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.2,0.25,0.1"
+        mask:
+        - ItemMask
+  - type: Appearance
+
+- type: material
+  id: Credit
+  name: Bullet
+  unit: materials-unit-bill
+  stackEntity: SpaceCash
+  icon: { sprite: _Nedometro2033\Objects\Economy\cash.rsi, state: cash_1 }
+  price: 1
+
+- type: stack
+  id: Credit
+  name: Bullet
+  icon: { sprite: _Nedometro2033\Objects\Economy\cash.rsi, state: cash_1 }
+  spawn: SpaceCash
+
+- type: entity
+  parent: Cash
+  id: Cash2
+  suffix: 2
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_2
+  - type: Stack
+    count: 2
+
+- type: entity
+  parent: Cash
+  id: Cash3
+  suffix: 3
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_3
+  - type: Stack
+    count: 3
+
+- type: entity
+  parent: Cash
+  id: Cash4
+  suffix: 4
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_4
+  - type: Stack
+    count: 4
+
+- type: entity
+  parent: Cash
+  id: Cash5
+  suffix: 5
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_5
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: Cash
+  id: Cash10
+  suffix: 10
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_10
+  - type: Stack
+    count: 10
+
+- type: entity
+  parent: Cash
+  id: Cash11
+  suffix: 11
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_11
+  - type: Stack
+    count: 11
+
+- type: entity
+  parent: Cash
+  id: Cash31
+  suffix: 31
+  components:
+  - type: Icon
+    sprite: _Nedometro2033\Objects\Economy\cash.rsi
+    state: cash_31
+  - type: Stack
+    count: 31

@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitVDV
+  name: VDV Jumpsuit
+  description: Pants "Birch" and a vest of landing troops, the choice of the hero’s hero
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\vdv.rsi
+  - type: Clothing
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\vdv.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSweaterJeans
+  name: Sweater and jeans
+  description: Blue jeans straight from America! As well as the old olive sweater.
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\sw_jns.rsi
+  - type: Clothing
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\sw_jns.rsi

@@ -2,7 +2,7 @@
 
 - type: entity
   parent: FoodTinBase
-  id: Foodtintyshenka
+  id: FoodtinTyshenka
   name: Tyshenka
   description: A jar full of some kind of biomass. Conditionalle edible.
   components:
@@ -26,7 +26,40 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTintyshenkaTrash
-  name: tyshenka
+  name: Tyshenka
   components:
   - type: Sprite
     sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
+
+# shproti.rsi
+
+- type: entity
+  parent: FoodTinBase
+  id: FoodtinShproti
+  name: Shproti
+  description: Sprats in oil, do they smell disgusting them?
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
+  # the convenient pull tab
+  - type: Openable
+    openableByHand: true
+  - type: FlavorProfile
+    flavors:
+    - fishy
+    - salty
+    - cheap
+  - type: Food
+    trash: 
+    - FoodTinShprotiTrash
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodTinBaseTrash
+  id: FoodTinShprotiTrash
+  name: Shproti
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
