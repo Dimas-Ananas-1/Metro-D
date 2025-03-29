@@ -3,8 +3,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodtinTyshenka
-  name: Tyshenka
-  description: A jar full of some kind of biomass. Conditionalle edible.
+  name: тушёнка
+  description: Банка полная какой-то биомассы. Относительно съедобно.
   components:
   - type: Sprite
     sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTintyshenkaTrash
-  name: Tyshenka
+  name: тушёнка
   components:
   - type: Sprite
     sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: FoodTinBase
   id: FoodtinShproti
-  name: Shproti
-  description: Sprats in oil, do they smell disgusting them?
+  name: шпроты
+  description: Шпроты в масле, они пахнут отвратительно их вообще можно есть?
   components:
   - type: Sprite
     sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: FoodTinBaseTrash
   id: FoodTinShprotiTrash
-  name: Shproti
+  name: шпроты
   components:
   - type: Sprite
     sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi

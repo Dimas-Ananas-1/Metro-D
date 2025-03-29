@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetSH
-  name: SH helmet
-  description: The old Soviet helmet, most likely it was taken from the old building of power structures.
+  name: СШ шлем
+  description: Старый советский шлем, добыт сталкерами в ближайшем музее или же снят с тела неудачливого коллеги.
   components:
   - type: Sprite
     sprite: _Nedometro2033\Clothing\Head\Helmets\sh_helmet.rsi

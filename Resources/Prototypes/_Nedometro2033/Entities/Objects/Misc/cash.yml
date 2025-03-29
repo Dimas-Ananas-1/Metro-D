@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  id: Cash
-  name: Bullets
-  description: You gotta have cash.
+  id: Pulka
+  name: пульки
+  description: Пулялки-пуляльные.
   components:
   - type: Cash
   - type: Item
@@ -49,7 +49,7 @@
 
 - type: material
   id: Credit
-  name: Bullet
+  name: пулька
   unit: materials-unit-bill
   stackEntity: SpaceCash
   icon: { sprite: _Nedometro2033\Objects\Economy\cash.rsi, state: cash_1 }
@@ -57,13 +57,13 @@
 
 - type: stack
   id: Credit
-  name: Bullet
+  name: пулька
   icon: { sprite: _Nedometro2033\Objects\Economy\cash.rsi, state: cash_1 }
   spawn: SpaceCash
 
 - type: entity
-  parent: Cash
-  id: Cash2
+  parent: Pulka
+  id: Pulka2
   suffix: 2
   components:
   - type: Icon
@@ -73,8 +73,8 @@
     count: 2
 
 - type: entity
-  parent: Cash
-  id: Cash3
+  parent: Pulka
+  id: Pulka3
   suffix: 3
   components:
   - type: Icon
@@ -84,8 +84,8 @@
     count: 3
 
 - type: entity
-  parent: Cash
-  id: Cash4
+  parent: Pulka
+  id: Pulka4
   suffix: 4
   components:
   - type: Icon
@@ -95,8 +95,8 @@
     count: 4
 
 - type: entity
-  parent: Cash
-  id: Cash5
+  parent: Pulka
+  id: Pulka5
   suffix: 5
   components:
   - type: Icon
@@ -106,8 +106,8 @@
     count: 5
 
 - type: entity
-  parent: Cash
-  id: Cash10
+  parent: Pulka
+  id: Pulka10
   suffix: 10
   components:
   - type: Icon
@@ -117,8 +117,8 @@
     count: 10
 
 - type: entity
-  parent: Cash
-  id: Cash11
+  parent: Pulka
+  id: Pulka11
   suffix: 11
   components:
   - type: Icon
@@ -128,8 +128,8 @@
     count: 11
 
 - type: entity
-  parent: Cash
-  id: Cash31
+  parent: Pulka
+  id: Pulka31
   suffix: 31
   components:
   - type: Icon
