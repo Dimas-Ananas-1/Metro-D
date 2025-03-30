@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetSH
+  name: СШ шлем
+  description: Старый советский шлем, добыт сталкерами в ближайшем музее или же снят с тела неудачливого коллеги.
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Clothing\Head\Helmets\sh_helmet.rsi
+  - type: Clothing
+    sprite: _Nedometro2033\Clothing\Head\Helmets\sh_helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.9

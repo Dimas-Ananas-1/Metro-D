@@ -1,0 +1,65 @@
+# tyshenka.rsi
+
+- type: entity
+  parent: FoodTinBase
+  id: FoodtinTyshenka
+  name: тушёнка
+  description: Банка полная какой-то биомассы. Относительно съедобно.
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
+  # the convenient pull tab
+  - type: Openable
+    openableByHand: true
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - salty
+    - cheap
+  - type: Food
+    trash: 
+    - FoodTintyshenkaTrash
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodTinBaseTrash
+  id: FoodTintyshenkaTrash
+  name: тушёнка
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
+
+# shproti.rsi
+
+- type: entity
+  parent: FoodTinBase
+  id: FoodtinShproti
+  name: шпроты
+  description: Шпроты в масле, они пахнут отвратительно их вообще можно есть?
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
+  # the convenient pull tab
+  - type: Openable
+    openableByHand: true
+  - type: FlavorProfile
+    flavors:
+    - fishy
+    - salty
+    - cheap
+  - type: Food
+    trash: 
+    - FoodTinShprotiTrash
+  - type: Tag
+    tags:
+    - Meat
+
+- type: entity
+  parent: FoodTinBaseTrash
+  id: FoodTinShprotiTrash
+  name: шпроты
+  components:
+  - type: Sprite
+    sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
