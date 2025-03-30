@@ -5,9 +5,9 @@
   description: Старый советский шлем, добыт сталкерами в ближайшем музее или же снят с тела неудачливого коллеги.
   components:
   - type: Sprite
-    sprite: _Nedometro2033\Clothing\Head\Helmets\sh_helmet.rsi
+    sprite: _Nedometro2033/Clothing/Head/Helmets/sh_helmet.rsi
   - type: Clothing
-    sprite: _Nedometro2033\Clothing\Head\Helmets\sh_helmet.rsi
+    sprite: _Nedometro2033/Clothing/Head/Helmets/sh_helmet.rsi
   - type: Armor
     modifiers:
       coefficients:

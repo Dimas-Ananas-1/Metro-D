@@ -5,7 +5,7 @@
   description: Продукт довоенных деталей и мастерства оружейников метро. "Калаш" состоит из деталей от самых разных моделей которые базируются на базе АК.
   components:
   - type: Sprite
-    sprite: _Nedometro2033\Objects\Weapons\kalash.rsi
+    sprite: _Nedometro2033/Objects/Weapons/kalash.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
