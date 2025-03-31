@@ -5,7 +5,7 @@
   description: Советская ручная граната, любимой фразой при броске у многих стало "Кушай лимонку!"
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Objects/Weapons/rgd5.rsi
+    sprite: _Nedometro2033\Objects\Weapons\rgd5.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]

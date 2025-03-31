@@ -5,9 +5,10 @@
   description: Камуфляж "Береза" и тельняшка относящаяся к ВДВ. Выбор начинаюших героев боевиков.
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Clothing/Uniforms/Jumpsuit/vdv.rsi
+
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\vdv.rsi
   - type: Clothing
-    sprite: _Nedometro2033/Clothing/Uniforms/Jumpsuit/vdv.rsi
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\vdv.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,6 +17,8 @@
   description: Синие импортные джинсы а также старый оливковый свитер.
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Clothing/Uniforms/Jumpsuit/sw_jns.rsi
+
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\sw_jns.rsi
   - type: Clothing
-    sprite: _Nedometro2033/Clothing/Uniforms/Jumpsuit/sw_jns.rsi
+    sprite: _Nedometro2033\Clothing\Uniforms\Jumpsuit\sw_jns.rsi
+

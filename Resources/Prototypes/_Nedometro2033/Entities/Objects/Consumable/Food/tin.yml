@@ -7,7 +7,7 @@
   description: Банка полная какой-то биомассы. Относительно съедобно.
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Objects/Consumable/Food/tyshenka.rsi
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
   # the convenient pull tab
   - type: Openable
     openableByHand: true
@@ -29,8 +29,7 @@
   name: тушёнка
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Objects/Consumable/Food/tyshenka.rsi
-
+    sprite: _Nedometro2033\Objects\Consumable\Food\tyshenka.rsi
 # shproti.rsi
 
 - type: entity
@@ -40,7 +39,7 @@
   description: Шпроты в масле, они пахнут отвратительно их вообще можно есть?
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Objects/Consumable/Food/shproti.rsi
+    sprite: _Nedomero2033\Objects\Consumable\Food\shproti.rsi
   # the convenient pull tab
   - type: Openable
     openableByHand: true
@@ -62,4 +61,4 @@
   name: шпроты
   components:
   - type: Sprite
-    sprite: _Nedometro2033/Objects/Consumable/Food/shproti.rsi
+    sprite: _Nedometro2033\Objects\Consumable\Food\shproti.rsi
